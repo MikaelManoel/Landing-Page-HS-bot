@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #7e7475 16.62%, #884242 85.61%);
+}
+
+.cabecalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+}
+
+.cabecalho-imagem{
+width: 62px;
+height: 62px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.5px solid #FFF2E7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-imagem{
+    width: 400px;
+    height: 400px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'League Gothic', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ac9598 ;
+    color: rgb(48, 33, 33);
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #2F2325
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53)
+}
+
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.5px solid #FFF2E7;
+    padding-top: 40px;
+    font-family: 'League Gothic', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.5px solid #FFF2E7;
+}
+
+.rodape-imagem{
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
